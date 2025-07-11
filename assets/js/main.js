@@ -213,7 +213,7 @@ var swiper = new Swiper(".mySwiper", {
 	grabCursor: true,
 	centeredSlides: true,
 	autoplay: {
-	  delay: 25000,
+	  delay: 28000,
 	  disableOnInteraction: false,
 	},
 	loop: true,

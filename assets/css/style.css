@@ -53,6 +53,14 @@ a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+  .about-descr a {
+    color: #999999;
+  }
+
+  .about-descr a:hover {
+    color: #292929;
+  }
+
 a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
