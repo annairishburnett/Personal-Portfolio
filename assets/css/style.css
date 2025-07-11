@@ -878,6 +878,7 @@ h4 a {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
+  text-align: justify;
 }
 
 .paragraph-padding-top {
@@ -1005,16 +1006,6 @@ h4 a {
 	margin-bottom: 50px;
 	overflow: hidden;
 }
-.testimonial .image {
-	height: 170px;
-	width: 170px;
-	-webkit-object-fit: cover;
-	   -moz-object-fit: cover;
-  		-ms-object-fit: cover;
-			object-fit: cover;
-	border-radius: 50%;
-	
-}
 .testimonial .testimonialSlide {
 	display: flex;
 	align-items: center;
@@ -1023,7 +1014,7 @@ h4 a {
 	row-gap: 30px;
 }
 .testimonialSlide p{
-	text-align: left;
+	text-align: justify;
 	padding: 0 100px;
 	margin: 0 0 0.5rem 0;
 }
@@ -1045,20 +1036,7 @@ h4 a {
 
 /* Swiper Button CSS */
 .navBtn {
-   height: 40px;
-   width: 40px; 
-   border-radius: 50%;
-   transform: translateY(-55px);
-   background-color: #f1f1f1;
-   transition: 0.2s;
-}
-.navBtn:hover {
-	background-color: #bbbbbb; 
-}
-.navBtn::after,
-.navBtn::before {
-	font-size: 20px;
-	color: #fff;
+   display: none;
 }
 .swiper-pagination-bullet {
 	background-color: rgba(0, 0, 0, 0.8);
@@ -1073,13 +1051,6 @@ h4 a {
 @media screen and (max-width: 768px) {
 	.testimonialSlide p {
 		 padding: 0 20px;
-	}
-	.navBtn {
-		 display: none;
-	}
-	.testimonial .image {
-		height: 120px;
-		width: 120px;
 	}
 } 
 
