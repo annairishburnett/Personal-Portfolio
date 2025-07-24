@@ -611,9 +611,12 @@ p {
   text-align: left;
 }
 
+
+
 #wide-headshot {
   display: none;
 }
+
 
 /*--------------------------------------------------------------
 # Services
@@ -1391,6 +1394,7 @@ blockquote {
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
+    text-align: justify;
   }
 
   #wide-headshot {
